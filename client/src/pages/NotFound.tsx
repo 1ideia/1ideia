@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen flex flex-col" style={{ background: "#0a0a0f" }}>
+    <div className="min-h-screen flex flex-col">
       <NeonCursor />
       <Navbar />
       <main className="flex-1 flex items-center justify-center">

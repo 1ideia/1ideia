@@ -49,7 +49,7 @@ const secoes = [
 
 export default function Termos() {
   return (
-    <div className="min-h-screen" style={{ background: "#0a0a0f" }}>
+    <div className="min-h-screen">
       <NeonCursor />
       <Navbar />
 

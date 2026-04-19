@@ -688,7 +688,7 @@ export default function Home() {
   return (
     <div
       className="min-h-screen"
-      style={{ background: "#0a0a0f" }}
+     
     >
       <NeonCursor />
       <Navbar />

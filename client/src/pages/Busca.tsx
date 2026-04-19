@@ -57,7 +57,7 @@ export default function Busca() {
   };
 
   return (
-    <div className="min-h-screen" style={{ background: "#0a0a0f" }}>
+    <div className="min-h-screen">
       <NeonCursor />
       <Navbar />
 
