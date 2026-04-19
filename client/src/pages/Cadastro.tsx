@@ -36,7 +36,7 @@ const perfis = [
     descricao: "Busco ativos de inovação pré-validados. Quero acesso a MVPs e patentes com feed curado por IA.",
     cor: "#FFD700",
     campos: ["CPF", "Razão Social (opcional)", "Áreas de Interesse"],
-    beneficios: ["Feed curado por IA", "Créditos de acesso", "Relatórios de tendências"],
+    beneficios: ["Feed curado por IA", "Tokens de acesso", "Relatórios de tendências"],
   },
   {
     id: "empresa" as Perfil,

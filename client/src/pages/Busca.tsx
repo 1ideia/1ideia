@@ -331,7 +331,7 @@ export default function Busca() {
                           className="text-xs text-muted-foreground"
                           style={{ fontFamily: "'Space Mono', monospace" }}
                         >
-                          Requer créditos para acessar
+                          Requer tokens para acessar
                         </p>
                         <Link href="/cadastro">
                           <button
@@ -343,7 +343,7 @@ export default function Busca() {
                               fontFamily: "'Orbitron', sans-serif",
                             }}
                           >
-                            COMPRAR CRÉDITOS
+                            COMPRAR TOKENS
                           </button>
                         </Link>
                       </div>
