@@ -35,9 +35,9 @@ const secoes = [
   },
   {
     icon: <Coins size={20} />,
-    titulo: "5. Economia de Tokens",
+    titulo: "5. Economia de Créditos",
     cor: "#b000ff",
-    conteudo: `Tokens são a moeda interna da plataforma 1Ideia. Investidores e Empresas adquirem tokens para desbloquear detalhes técnicos de Ideias Incrementais e Inovadoras. Tokens não são reembolsáveis após uso. A 1Ideia reserva-se o direito de alterar o valor dos tokens com aviso prévio de 30 dias. Tokens não expiram e podem ser transferidos entre contas da mesma titularidade.`,
+    conteudo: `Créditos são a moeda interna da plataforma 1Ideia. Investidores e Empresas adquirem créditos para desbloquear detalhes técnicos de Ideias Incrementais e Inovadoras. Créditos não são reembolsáveis após uso. A 1Ideia reserva-se o direito de alterar o valor dos créditos com aviso prévio de 30 dias. Créditos não expiram e podem ser transferidos entre contas da mesma titularidade.`,
   },
   {
     icon: <AlertCircle size={20} />,
