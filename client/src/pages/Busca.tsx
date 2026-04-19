@@ -331,7 +331,7 @@ export default function Busca() {
                           className="text-xs text-muted-foreground"
                           style={{ fontFamily: "'Space Mono', monospace" }}
                         >
-                          Requer tokens para acessar
+                          Requer Créditos para acessar
                         </p>
                         <Link href="/cadastro">
                           <button

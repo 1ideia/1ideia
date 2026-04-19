@@ -912,7 +912,7 @@ export default function Home() {
                 "Áreas de Interesse personalizadas",
                 "Acesso a Ideias Incrementais",
                 "Validação por CPF/Razão Social",
-                "Tokens para desbloquear detalhes",
+                "Créditos para desbloquear detalhes",
               ]}
               cor="#FFD700"
               delay={0.2}
@@ -983,7 +983,7 @@ export default function Home() {
               icon={<Lock size={24} style={{ color: "#FFD700" }} />}
               titulo="IDEIAS INCREMENTAIS"
               subtitulo="B2B Direcionado"
-              descricao="Proposta de melhoria específica para um produto de uma empresa. Fluxo fechado — apenas a empresa citada ou investidores com tokens podem visualizar."
+              descricao="Proposta de melhoria específica para um produto de uma empresa. Fluxo fechado — apenas a empresa citada ou investidores com Créditos podem visualizar."
               cor="#FFD700"
               badge="B2B"
               delay={0.2}
@@ -1320,8 +1320,8 @@ export default function Home() {
                 {[
                   {
                     icon: <Coins size={20} style={{ color: "#FFD700" }} />,
-                    titulo: "Economia de Tokens",
-                    desc: "Investidores e Empresas compram tokens para desbloquear detalhes técnicos de ideias.",
+                    titulo: "Economia de Créditos",
+                    desc: "Investidores e Empresas compram Créditos para desbloquear detalhes técnicos de ideias.",
                     cor: "#FFD700",
                   },
                   {

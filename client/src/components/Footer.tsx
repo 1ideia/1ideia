@@ -104,7 +104,7 @@ export default function Footer() {
                 { href: "/termos", label: "Termos de Uso" },
                 { href: "/termos", label: "Privacidade" },
                 { href: "/termos", label: "Propriedade Intelectual" },
-                { href: "/termos", label: "Política de Tokens" },
+                { href: "/termos", label: "Política de Créditos" },
               ].map((link, i) => (
                 <li key={i}>
                   <Link href={link.href}>

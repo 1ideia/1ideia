@@ -42,7 +42,7 @@ const categoriaIcon = {
 };
 
 export default function Dashboard() {
-  const [abaAtiva, setAbaAtiva] = useState<"ideias" | "atividade" | "tokens">("ideias");
+  const [abaAtiva, setAbaAtiva] = useState<"ideias" | "atividade" | "Créditos">("ideias");
 
   const handleNovaIdeia = () => {
     toast.info("Abrindo o Agente 1Ideia... Funcionalidade completa em breve!");
@@ -132,7 +132,7 @@ export default function Dashboard() {
             ))}
           </div>
 
-          {/* Progresso de Tokens */}
+          {/* Progresso de Créditos */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -165,14 +165,14 @@ export default function Dashboard() {
             </div>
             <div className="flex justify-between mt-2">
               <span className="text-xs text-muted-foreground" style={{ fontFamily: "'Space Mono', monospace" }}>
-                150 / 250 tokens usados
+                150 / 250 Créditos usados
               </span>
               <button
-                onClick={() => toast.info("Compra de tokens em breve!")}
+                onClick={() => toast.info("Compra de Créditos em breve!")}
                 className="text-xs text-gold hover:underline"
                 style={{ fontFamily: "'Space Mono', monospace" }}
               >
-                + Comprar tokens
+                + Comprar Créditos
               </button>
             </div>
           </motion.div>
@@ -182,7 +182,7 @@ export default function Dashboard() {
             {[
               { key: "ideias", label: "Minhas Ideias", icon: <Zap size={14} /> },
               { key: "atividade", label: "Atividade", icon: <TrendingUp size={14} /> },
-              { key: "tokens", label: "Tokens", icon: <Coins size={14} /> },
+              { key: "Créditos", label: "Créditos", icon: <Coins size={14} /> },
             ].map(aba => (
               <button
                 key={aba.key}
@@ -361,16 +361,16 @@ export default function Dashboard() {
             </motion.div>
           )}
 
-          {abaAtiva === "tokens" && (
+          {abaAtiva === "Créditos" && (
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               className="grid grid-cols-1 md:grid-cols-3 gap-5"
             >
               {[
-                { titulo: "Pacote Básico", tokens: 50, preco: "R$ 29,90", cor: "#00f0ff", desc: "Ideal para começar" },
-                { titulo: "Pacote Pro", tokens: 200, preco: "R$ 89,90", cor: "#FFD700", desc: "Mais popular", destaque: true },
-                { titulo: "Pacote Enterprise", tokens: 1000, preco: "R$ 299,90", cor: "#b000ff", desc: "Para empresas" },
+                { titulo: "Pacote Básico", Créditos: 50, preco: "R$ 29,90", cor: "#00f0ff", desc: "Ideal para começar" },
+                { titulo: "Pacote Pro", Créditos: 200, preco: "R$ 89,90", cor: "#FFD700", desc: "Mais popular", destaque: true },
+                { titulo: "Pacote Enterprise", Créditos: 1000, preco: "R$ 299,90", cor: "#b000ff", desc: "Para empresas" },
               ].map((pacote, i) => (
                 <div
                   key={i}
@@ -406,10 +406,10 @@ export default function Dashboard() {
                     className="text-3xl font-black mb-1"
                     style={{ fontFamily: "'Orbitron', sans-serif", color: pacote.cor }}
                   >
-                    {pacote.tokens}
+                    {pacote.Créditos}
                   </div>
                   <div className="text-xs text-muted-foreground mb-4" style={{ fontFamily: "'Space Mono', monospace" }}>
-                    tokens
+                    Créditos
                   </div>
                   <div
                     className="text-xl font-bold mb-5"
